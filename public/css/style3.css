@@ -1,0 +1,109 @@
+.qualitysrc {
+    display: none;
+  }
+  .srcql{
+   
+   width: 80%;
+   margin: 10px auto;
+ }
+  
+ .srcql input::placeholder{
+   font-family: "Peyda";
+ }
+ .srcql input:focus{
+   font-family: "Peyda";
+ }
+  .flex1{
+    display: none;
+  }
+  .qualyBox{
+   background: linear-gradient(to bottom, #40739e ,#90a2bb );
+   border-radius: 20px;
+   box-shadow: 0px 0px  2px 2px rgb(180, 178, 178);
+   width: 70%;
+ padding: 20px 40px;
+ margin-top: 3%;
+ margin-bottom: 8%;
+  }
+  .qualyBox h1{
+    font-family: "IRANYekanBold";
+    color: white;
+    margin-bottom:4%;
+ 
+  }
+  .qualyBox h5{
+   font-family: "Peyda";
+   font-size: 30px;
+   color: #f5f6fa;
+ 
+  }
+  .qualyBox span{
+   font-family: 'Oswald', sans-serif;
+  }
+  .qualyBox p {
+    font-size: 25px;
+    font-family: "Peyda";
+    margin-top: 3%;
+    border-radius: 20px;
+    width: 60%;
+    padding: 0px 10px;
+  }
+  .qualyBox h4{
+    font-family: "IRANYekanBold";
+    font-size: 30px;
+    margin-top: 3%;
+    color: #fbc531;
+  }
+  .srcbtn{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    font-family: "Peyda";
+    background: #0097e6;
+    border: none;
+  }
+  .btn-secondary{
+    font-family: "Peyda";
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  .virus .card-text{
+    font-family: "IRANYekanLight";
+    width: 100%;
+  
+   }
+  @media screen and (min-width: 300px) and (max-width : 766px){
+    .flex1{
+        width: 100%;
+        display: flex !important;
+        justify-content: center !important;
+        margin: 0 auto;
+        margin-top: 1%;
+        margin-bottom: 7%;
+        align-content: center;
+      }
+      .know{
+    
+        width: 100%;
+        height: 100px;
+        border-radius: 8px;
+        font-family: "Peyda";
+        padding: 0 70px;
+        margin: 0 auto;
+        
+      }
+      .know h5{
+        text-align: center;
+        width: 100%;
+        padding-top: 35px;
+        color: white;
+      }
+      .srcql{
+        margin-top: 8%;
+        width: 100%;
+      }
+      .qualyBox{
+      
+        width: 100%;
+       }  
+     
+}

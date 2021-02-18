@@ -1,0 +1,91 @@
+.qualy1{
+    margin-top: 3%;
+    background: url(/../img/cons.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 200px;
+   
+ 
+ 
+  }
+  .txt{
+    background: whitesmoke;
+    padding: 28px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px  2px 2px rgba(128, 128, 128, 0.596);
+  }
+  .fa-search{
+   font-size: 15px;
+ }
+ .cardAir{
+   width: 70%;
+   margin: 0 auto;
+ 
+  
+ }
+ .card-body{
+   padding-top: 1%;
+ }
+ .cardAir h5{
+   font-family: 'Oswald', sans-serif;
+   font-size: 100px;
+   margin-top: 10px;
+ }
+ .qualiwt{
+   width: 30%;
+   margin: 0 auto;
+ }
+ .cardAir p {
+   font-family: "IRANYekanLight";
+   font-size: 30px;
+   margin-top: -10px;
+   width: 60%;
+   padding: 10px 10px;
+  
+ 
+ border-radius: 20px;
+ color: white;
+ }
+ .card-footer{
+   font-family: 'Montserrat', sans-serif !important;
+   font-weight: lighter;
+ }
+ .unhlt{
+   background:#F32013 !important ;
+ }
+ .dng{
+   background: #CA0B00 !important;
+ }
+ .moderate{
+   background: #F0D500 !important;
+   color:#2f3640 !important;
+ }
+ .imgDisc{
+   background: #c8d6e5 !important;
+   width: 20%;
+   margin: 20px auto !important;
+   border-radius: 30px !important;
+ }
+ 
+ @media screen and (min-width: 300px) and (max-width : 766px){
+ 
+    .cardAir{
+        width: 100%;
+        margin: 0 auto;
+        height: 450px;
+          
+      }
+      .card-body{
+        padding-top: 7px;
+      }
+      .cardAir p {
+        padding: 10px 20px;
+        width: 100%;
+      }
+      .imgDisc{
+        background: #c8d6e5;
+        width: 90%;
+        margin: 20px auto;
+      }
+      
+}

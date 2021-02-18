@@ -1,0 +1,571 @@
+.virusMap{
+    width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 1% 0;
+}
+
+.mapContainer,
+.mapBox {
+  width: 100%;
+  height: 100%;
+}
+.mapboxgl-popup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    color: #424242;
+  }
+  .mapboxgl-popup-content p {
+    font-family: 'Raleway', sans-serif;
+  }
+
+
+.desk{
+    margin: 5% auto;
+
+}
+.desk iframe{
+    width: 100%;
+    
+}
+.mobile{
+    display: none;
+  
+}
+.flex2{
+    display: none;
+}
+.mapbadge{
+    display: none;
+}
+.mapli{
+    position: relative;
+}
+.mapbadge1{
+   position: absolute;
+  
+   padding: 6px 6px;
+   font-size: 10px;
+top: -2%;
+right: 85%;
+  background: #c23516ce;
+  border-radius: 10px 10px 0px 10px;
+  font-family: "Peyda";
+  animation: badge1 infinite 0.7s alternate;
+}
+@keyframes badge1{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        background: #c23616;
+    }
+}
+
+.virus .card{
+    box-shadow: 0px 0px 8px grey;
+    background: linear-gradient(to bottom , #dcdde1 , #b2bec3);
+
+}
+.virus .card-title{
+    font-family: "Peyda";
+}
+.sympt .card{
+height: 250px;
+padding: 20px 10px;
+background: linear-gradient(to bottom , #dcdde1 , #b2bec3);
+border-radius: 50px 0px 0px 0px;
+}
+.sympt .card-text{
+    width: 80% !important;
+    margin:0 auto;
+    margin-top: 2%;
+}
+.wtbl{
+    position: relative;
+}
+.darkmode{
+background: none;
+
+}
+.darkmode img{
+    width: 25px;
+    height: 25px;
+}
+.aboutMe{
+    background-image: url(../img/prog.png);
+   background-position: top;
+    height: 100vh;
+    background-color: #fbc531c7;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    padding-top: 10%;
+
+}
+.aboutMe .abtt{
+   padding-top: 1%;
+   background-color: #353b48b2;
+   padding: 50px 50px;
+   color: #f5f6fa;
+   font-family: "Peyda";
+   border-radius: 100px 120px 0px 100px ;
+}
+.abtt h1{
+    text-shadow: 2px 2px #c23616;
+    margin-bottom: 1%;
+}
+.abtt span{
+    color: #dcdde1;
+    text-shadow: 2px 2px #c23616;
+}
+.abtt h3 , h4{
+    margin-bottom: 3%;
+}
+.icon{
+    margin-top: 2%;
+}
+
+.zoom{
+    transform: scale(1.1);
+}
+
+.vaccine{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height:180px;
+    align-content: space-around;
+    margin-bottom: 5%;
+
+}
+.boxVac{
+    width: 200px;
+    height: 20px;
+  
+    margin-left: 2%;
+}
+.boxVac h6{
+    font-family: "IranYekanBold";
+    text-align: center;
+    margin-bottom: 7%;
+    font-size: 17px !important;
+}
+.boxVac p {
+    font-family: "IranYekanLight";
+    text-align: center;
+    margin-top: 10%;
+}
+.boxvac1{
+
+    padding: 20px 20px;
+    margin-bottom: 6%;
+   border-radius: 10px;
+   box-shadow: 0px 0px 8px grey;
+}
+.boxvac1:first-child{
+    background: black !important;
+}
+.boxvac1 h5{
+font-family: "Peyda";
+font-size: 28px !important;
+text-align: center;
+}
+.boxVac:first-child h6{
+    font-size: 13px !important;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.vac{
+    margin-top: 3%;
+}
+.vac h4{
+    font-family: "Peyda";
+    font-size: 30px;
+}
+.proc{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+.proc p{
+    font-family: "IranYekanLight";
+    font-size: 18px;
+    margin-top: 5%;
+    padding: 15px 0px;
+    line-height: 140%;
+}
+.proc p::first-letter{
+    color: red;
+    font-size: 20px !important;
+}
+.vac1{
+    background: #e8e8e8;
+}
+.vac2{
+    background: #bbe1fa;
+    
+}
+.vac3{
+    background: #3282b8;
+    color: #f5f6fa;
+}
+.vac4{
+    background: #0f4c75;
+    color: #f5f6fa;
+}
+.vac5{
+    background: #273c75;
+    color: #f5f6fa;
+}
+.vac6{
+    background: #006266;
+    color: #f5f6fa;
+}
+.proc span{
+    font-family: "Peyda";
+    margin-left: 4%;
+}
+.progress-bar{
+    box-shadow: none !important;
+}
+.phase1{
+    background: #c0392b;
+    border-right: 2px solid white;
+    border-radius: 0px 5px 5px 0px;
+}
+.phase2{
+    background: #f39c12;
+    border-right: 2px solid white;
+}
+.phase3{
+    background: repeating-linear-gradient(
+  45deg,
+  #2980b9,
+  #2980b9 10px,
+  #35407e 10px,
+  #35407e 20px
+);
+border-right: 2px solid white;
+}
+.phase4{
+    background: #f1c40f;
+    border-right: 2px solid white;
+}
+.alert-info{
+    padding: 20px 20px;
+    width: 60%;
+    margin: 2% auto;
+    text-align: center;
+    font-family: "IranYekanBold";
+    font-size: 19px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px grey;
+}
+.alert-info h5{
+    line-height: 160% !important;
+}
+.prog ul {
+    margin-top: 4%;
+    margin-bottom: 5%;
+    list-style:disc;
+}
+.prog p {
+    font-family: "IranYekanLight";
+    font-size: 18px;
+}
+.prog h4{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.btn-dark{
+    background: #2c3e50;
+    font-family: "Peyda";
+}
+.locateBox{
+    width: 100%;
+    background-image:url(../img/cloud.jpeg);
+    background-size: cover;
+    background-color: grey;
+    background-blend-mode: multiply;
+    margin: 5% auto;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 0px 8px grey;
+}
+.locateBox .reg{
+    font-family: 'Lato', sans-serif; 
+    font-style: italic;
+    font-size: 29px;
+   
+}
+.weather-row{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.weather-boxs{
+    width: 60% !important;
+    height: 100px;
+    margin: 10% auto;
+    background: red;
+    text-align: center;
+    font-family: "Peyda";
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px grey;
+}
+.weather-boxs:first-child{
+    background: linear-gradient(90deg  , #892cdc , #000000);
+    
+}
+.weather-boxs:last-child{
+    background: linear-gradient(90deg  , #1f4068 , #1b1b2f);
+    
+}
+
+.weather-boxs button{
+    margin-top: 5%;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+
+}
+@media screen and (max-width:320px) {
+    
+    .vaccine{
+       margin-top: 30% !important;
+       height: auto !important;
+  
+    }
+    .boxVac{
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width : 766px){
+    .virusMap{
+        margin-top: 8%;
+    }
+  .weather-row{
+      margin-top: 8%;
+      padding-bottom: 50px;
+  }
+    .weather-boxs{
+       width: 90% !important;
+       margin-top: 12%;
+       margin-bottom: 2%;
+       padding-top: 10px;
+
+
+   }
+    .prog ul{
+        margin-top: 12%;
+        margin-bottom: 12%;
+    }
+    .prog ul li {
+        padding-bottom: 3%;
+    }
+    .progress{
+        margin-bottom: 10%;
+    }
+    .alert-info{
+        width: 100%;
+    }
+    .vac{
+        margin-top: 9%;
+     
+    }
+    .vaccine{
+        height: 500px;
+        display: flex;
+        flex-flow: wrap;
+        margin-bottom: 15%;
+        margin-top: 30%;
+        
+    }
+    .proc{
+        text-align: center;
+    }
+    .boxVac{
+        width: 100px;
+        margin-top: -10%;
+        margin-bottom: 3%;
+        height: 300px;
+    }
+    .boxvac1{
+        padding: 10px 10px;
+      
+    }
+    .boxVac p {
+        height: 140px;
+        padding: 10px 10px;
+        border: 1px solid grey;     
+        border-radius: 10px;
+        
+       
+    }
+    .boxVac:first-child h6{
+        font-size: 13px !important;
+        width: 100%;
+        margin-bottom: 7%;
+        margin-top: -10%;
+    }
+    .vac1{
+        margin-top: 3%;
+    }
+    .aboutMe{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .abtt  h1{
+        font-size: 35px;
+    }
+    .abtt h3{
+        font-size: 25px;
+       text-align: justify;
+       margin-bottom: 10%;
+    }
+    .abtt h4{
+        font-size: 23px;
+        text-align: justify;
+        margin-top: 4%;
+    }
+    .icon a {
+        font-size: 17px !important;
+    }
+    .cardAir .card-body{
+        background: url(../img/Tehran.jpg);
+        background-color: rgb(255, 255, 255);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+    }
+   .cardAir .card-title{
+       background: rgba(255, 255, 255, 0.726);
+       border-radius: 20px;
+       padding: 15px 0;
+       box-shadow: 0px 0px 8px grey;
+       color: #2d3436;
+       background-attachment: fixed;
+   }
+   .cardAir .card-text{
+       border-radius: 25px 25px 0px 25px;
+    box-shadow: 0px 0px 8px grey;
+   }
+    .sympt .card{
+        height: auto;
+        }
+        .sympt .card-text{
+            width:100% !important;
+            margin:0 auto;
+            margin-top: 2%;
+        }
+    .desk{
+        display: none;
+    }
+    .mobile{
+        width: 100%;
+        margin-top: 8%;
+        display: block;
+        height: 100vh;
+        padding-bottom: 20px;
+    }
+    .mobile iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .flex2{
+        width: 100%;
+        display: flex !important;
+        justify-content: center !important;
+        margin: 0 auto;
+        margin-top: 1%;
+        margin-bottom: 7%;
+        align-content: center;
+        position: relative;
+      }
+      .know1{
+       background-image: url(../img/map.jpg) !important;
+       background-size: cover;
+       background-position: center;
+        background-color:#af8615;
+        background-blend-mode: multiply;
+ 
+        box-shadow: 0px 0px 8px grey;
+
+        width: 100%;
+        height: 100px;
+        border-radius: 8px;
+        font-family: "Peyda";
+        padding: 0 70px;
+        margin: 0 auto;
+        
+      }
+      .box{
+        box-shadow: 0px 0px 10px grey;
+      }
+      .know{
+        box-shadow: 0px 0px 15px grey;
+        animation: know infinite 1s alternate;
+        background:  linear-gradient(90deg , #0097e6 , black) !important;
+
+      }
+      @keyframes know{
+          from{
+         box-shadow: 0px 0px 15px grey;
+         transform: scale(1);
+          }
+          to{
+            box-shadow: 0px 0px 0px grey;
+            transform: scale(1.04);
+          }
+      }
+      .know1 h5{
+        text-align: center;
+        width: 100%;
+        padding-top: 35px;
+        color: white;
+      }
+      .mapbadge{
+          display: block;
+          position: absolute;
+         padding: 6px 6px;
+         font-size: 12px;
+        top: -5%;
+       
+        background: #c23616;
+        font-family: "Peyda";
+      
+      }
+      .vaccsec{
+        background-image: url(../img/vaccine.png) !important;
+        background-size: contain;
+        animation: none !important;
+        padding: 0 80px;
+        background-color: #586270 !important;
+        background-blend-mode: multiply !important;
+       
+     
+     }
+     .vaccsec h5{
+        font-size: 25px;
+        color: #f5f6fa;
+     }
+     
+}

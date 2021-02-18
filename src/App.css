@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* @font-face {
+    font-family: "Peyda-Bold";
+    src: asset-url("./fonts/Peyda-Bold.eot") format("eot");
+    src: asset-url('./fonts/Peyda-Bold.eot') format('embedded-opentype'),
+        asset-url('./fonts/Peyda-Bold.woff2') format('woff2'),
+        asset-url('./fonts/Peyda-Bold.woff') format('woff'),
+        asset-url("./fonts/Peyda-Bold.ttf") format("truetype")
+        asset-url('./fonts/Peyda-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @font-face {
+    font-family: "IRANYekan-Light";
+    src: asset-url('./fonts/IRANYekan-Light.eot') format("eot");
+    src: asset-url('./fonts/IRANYekan-Light.eot') format('embedded-opentype'),
+        asset-url('./fonts/IRANYekan-Light.woff2') format('woff2'),
+        asset-url('./fonts/IRANYekan-Light.woff') format('woff'),
+        asset-url("./fonts/IRANYekan-Light.ttf") format("truetype"),
+        asset-url('./fonts/IRANYekan-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  @font-face {
+    font-family: "IRANYekan-Bold";
+    src: asset-url('./fonts/IRANYekan-Bold.eot') format("eot");
+    src: asset-url('./fonts/IRANYekan-Bold.eot') format('embedded-opentype'),
+        asset-url('./fonts/IRANYekan-Bold.woff2') format('woff2'),
+        asset-url('./fonts/IRANYekan-Bold.woff') format('woff'),
+        asset-url("./fonts/IRANYekan-Bold..ttf") format("truetype")
+        asset-url('./fonts/IRANYekan-Bold.svg') format('svg');
+    font-weight: bold; */
+    /* font-style: normal;
+    font-display: swap;
+  } */

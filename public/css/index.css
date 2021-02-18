@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Peyda-Bold";
+    src: url("public/fonts/Peyda-Bold.eot") format("eot");
+    src: url('public/fonts/Peyda-Bold.eot') format('embedded-opentype'),
+        url('public/fonts/Peyda-Bold.woff2') format('woff2'),
+        url('public/fonts/Peyda-Bold.woff') format('woff'),
+        url("public/fonts/Peyda-Bold.ttf") format("truetype")
+        url('public/fonts/Peyda-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  
+  }
+  @font-face {
+    font-family: "IRANYekan-Light";
+    src: url('public/fonts/IRANYekan-Light.eot');
+    src: url('public/fonts/IRANYekan-Light.eot') format('embedded-opentype'),
+        url('public/fonts/IRANYekan-Light.woff2') format('woff2'),
+        url('public/fonts/IRANYekan-Light.woff') format('woff'),
+        url("public/fonts/IRANYekanLight.ttf") format("truetype"),
+        url('public/fonts/IRANYekan-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  
+  }
+  @font-face {
+    font-family: "IRANYekan-Bold";
+    src: url('public/fonts/IRANYekan-Bold.eot');
+    src: url('public/fonts/IRANYekan-Bold.eot') format('embedded-opentype'),
+        url('public/fonts/IRANYekan-Bold.woff2') format('woff2'),
+        url('public/fonts/IRANYekan-Bold.woff') format('woff'),
+        url("public/fonts/IRANYekanBold.ttf") format("truetype")
+        url('public/fonts/IRANYekan-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+  
