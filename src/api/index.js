@@ -30,8 +30,7 @@ export const wordlTable = {
         url:"https://covid-193.p.rapidapi.com/statistics",
         headers:{
         "content-type":"application/octet-stream",
-        "x-rapidapi-host":"covid-193.p.rapidapi.com",
-        "x-rapidapi-key":"8887a86e3cmshdf8099d89e8cd58p1fcf9ejsn8c4fc4b8bbe7",
+        
         "useQueryString":true},
        
         
@@ -43,8 +42,7 @@ export const searchWordlTable = {
     url:`https://covid-193.p.rapidapi.com/countries?search=`,
     headers:{
     "content-type":"application/octet-stream",
-    "x-rapidapi-host":"covid-193.p.rapidapi.com",
-    "x-rapidapi-key":"8887a86e3cmshdf8099d89e8cd58p1fcf9ejsn8c4fc4b8bbe7",
+   
     "useQueryString":true}
     
 
